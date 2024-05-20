@@ -1,0 +1,9 @@
+[[services]]
+  internal_port = 3000
+  protocol = "tcp"
+
+[build]
+  command = "yarn build"
+
+[start]
+  command = "yarn start"
